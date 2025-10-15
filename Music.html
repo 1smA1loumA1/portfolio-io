@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music | ISMAIL OUMAI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <nav>
+        <div class="logo">ISMAIL OUMAI</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Skills.html">Skills</a>
+            <a href="Projects.html">Projects</a>
+            <a href="Music.html" class="active">Music</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="music" class="active">
+        <h2 class="section-title">My Music</h2>
+        <div class="music-player">
+            <div class="player-header">
+                <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Album Art" class="album-art">
+                <div class="track-info">
+                    <h3 class="track-title">Binary Soul</h3>
+                    <p class="track-artist">Ismail Oumai</p>
+                    <p class="track-genre">Electronic • 3:45</p>
+                </div>
+            </div>
+            
+            <div class="player-controls">
+                <button class="control-btn">
+                    <i class="fas fa-backward"></i>
+                </button>
+                <button class="control-btn play-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button class="control-btn">
+                    <i class="fas fa-forward"></i>
+                </button>
+            </div>
+            
+            <div class="playlist">
+                <div class="playlist-item active">
+                    <span class="track-number">1</span>
+                    <div class="track-details">
+                        <span class="track-name">Binary Soul</span>
+                        <span class="track-duration">3:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item">
+                    <span class="track-number">2</span>
+                    <div class="track-details">
+                        <span class="track-name">Oya Rise Up</span>
+                        <span class="track-duration">4:12</span>
+                    </div>
+                </div>
+                <div class="playlist-item">
+                    <span class="track-number">3</span>
+                    <div class="track-details">
+                        <span class="track-name">Horizon</span>
+                        <span class="track-duration">3:28</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="player-actions">
+                <a href="https://soundcloud.com/ismail-oumai" class="btn btn-primary">
+                    <i class="fab fa-soundcloud"></i> Listen on SoundCloud
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
